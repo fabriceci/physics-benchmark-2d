@@ -1,0 +1,3 @@
+SDL_ttf 2.20.1
+https://github.com/libsdl-org/SDL_ttf
+Compiled as Static Library, \MDd

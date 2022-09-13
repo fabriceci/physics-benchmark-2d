@@ -1,0 +1,3 @@
+SDL2_gfx - ef5bd9abf3e1275d6704143cd1c3da021ca4ee19
+https://github.com/davidsiaw/SDL2_gfx
+Compiled as Static Library, \MT

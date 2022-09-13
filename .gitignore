@@ -1,0 +1,18 @@
+# General
+.DS_Store
+
+# Executables
+*.exe
+*.out
+*.app
+app
+
+# VScode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix

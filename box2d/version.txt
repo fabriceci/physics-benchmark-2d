@@ -1,0 +1,3 @@
+Box2D
+2.4.1-dev-9dc24a6fd4f32442c4bcf80791de47a0a7d25afb
+https://github.com/erincatto/box2d

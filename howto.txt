@@ -1,0 +1,36 @@
+### Create C lib in rust
+https://docs.rust-embedded.org/book/interoperability/rust-with-c.html
+https://doc.rust-lang.org/cargo/guide/
+
+1. Create cargo lib:
+cargo new rapier2d-wrapper --lib
+
+2. Add lib info to Cargo.toml:
+[lib]
+name = "rapier2d_wrapper"
+#crate-type = ["cdylib"]	# Creates dynamic lib
+crate-type = ["staticlib"]	# Creates static lib
+
+3. Add rapier dependency:
+[dependencies]
+rapier2d = "0.13.0"
+
+4. Add function to lib.rs:
+#[no_mangle]
+pub extern "C" fn rust_function() -> i32 {
+	return 42;
+}
+
+5. Build debug/release lib:
+cargo build
+cargo build --release
+
+6. Build header:
+https://github.com/eqrion/cbindgen
+cargo install --force cbindgen
+cbindgen --config cbindgen.toml --crate rapier2d-wrapper --output includes/rapier2d_wrapper.h
+
+7. Include header/lib and call function in c++:
+#include "rapier2d_wrapper.h"
+int result = rust_function();
+printf("Result: %i", result);

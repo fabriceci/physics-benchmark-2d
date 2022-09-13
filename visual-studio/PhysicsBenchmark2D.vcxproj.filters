@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{e8497cf5-3813-428e-960f-eea51246ebe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rapier2d">
+      <UniqueIdentifier>{4f78a8a0-c03e-450a-86e1-c6302f5be924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="box2d">
+      <UniqueIdentifier>{f429d4e7-7c86-45f0-89f8-7d2058bb2d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{d5f67893-e5ae-4f36-9aa9-147daca6d36b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rapier2d\physics-engine-rapier2d.cpp">
+      <Filter>rapier2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\physics-engine.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\rapier2d\physics-body-rapier2d.cpp">
+      <Filter>rapier2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\physics-shape.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\box2d\physics-body-box2d.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\box2d\physics-engine-box2d.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\physics-material.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\physics-body.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Vector2D.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\common\Color.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Application.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graphics.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tests\Scene.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tests\StackBoxScene.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tests\PerfScene.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\rapier2d\physics-engine-rapier2d.h">
+      <Filter>rapier2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapier2d\physics-body-rapier2d.h">
+      <Filter>rapier2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\physics-body.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\physics-engine.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\physics-shape.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\physics-material.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\rapier2d\rapier-include.h">
+      <Filter>rapier2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\box2d\box2d-include.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\box2d\physics-body-box2d.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\box2d\physics-engine-box2d.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\Vector2D.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\Color.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\Constant.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common\utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Application.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Graphics.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tests\Scene.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tests\StackBoxScene.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tests\PerfScene.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
